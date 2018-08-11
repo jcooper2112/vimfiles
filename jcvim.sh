@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 # check if vimfiles exists, back it up and remove it.
-if [ -e ~/vimfiles exists ]
+if [ -e ~/vimfiles ]
 then
-    tar -zcvf vimfiles_bak.tar.gz ~/vimfiles
+    tar -zcvf ~/vimfiles_bak.tar.gz ~/vimfiles
     rm -rf ~/vimfiles
 fi
 
@@ -25,7 +25,7 @@ cp -r ~/vimfiles/git/badwolf/contrib ~/vimfiles/
 curl -LSso ~/vimfiles/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 # check if .vimrc already exists and back it up
-if [ -e ~/.vimrc exists ]
+if [ -e ~/.vimrc ]
 then
     mv ~/.vimrc ~/.vimrc_bak
 fi
