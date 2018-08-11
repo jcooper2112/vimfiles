@@ -11,7 +11,7 @@ fi
 mkdir ~/vimfiles
 
 # copy my git files over to the vimfiles dir
-cp * ~/vimfiles
+cp vimrc ~/vimfiles
 
 # git support stuff
 git clone https://github.com/sjl/badwolf.git ~/vimfiles/git/badwolf
