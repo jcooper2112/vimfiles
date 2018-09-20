@@ -10,6 +10,7 @@ set showcmd		"show command in bottom bar
 set cursorline		"highlights current line
 set wildmenu		"visual autocomplete for command menu
 set hlsearch        "hightlight search
+set laststatus=2
 
 "escape to clear search highlights
 nnoremap <silent><Esc> :nohlsearch<bar>:echo<CR>
