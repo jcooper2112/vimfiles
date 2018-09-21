@@ -18,3 +18,5 @@ set showmatch       "show matching parenthesis
 
 "swtiches windows between last file.
 nnoremap <Leader><Leader> :e#<CR>
+map <C-o> :NERDTreeToggle<CR>
+
