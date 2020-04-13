@@ -13,7 +13,7 @@ set hlsearch        "hightlight search
 set laststatus=2
 
 "escape to clear search highlights
-nnoremap <silent><Esc> :nohlsearch<bar>:echo<CR>
+"nnoremap <silent><Esc> :nohlsearch<bar>:echo<CR>
 set showmatch       "show matching parenthesis
 
 "swtiches windows between last file.
